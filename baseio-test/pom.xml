@@ -33,7 +33,7 @@
 					<source>${project.JdkVersion}</source>
 					<target>${project.JdkVersion}</target>
 					<encoding>${project.build.sourceEncoding}</encoding>
-					<attach>true</attach>
+					<!--<attach>true</attach>-->
 				</configuration>
 			</plugin>
 		</plugins>
@@ -82,11 +82,11 @@
 			<version>4.0.0-b01</version>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-all</artifactId>
 			<version>4.0.29.Final</version>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>redis.clients</groupId>
